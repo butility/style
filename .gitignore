@@ -1,0 +1,19 @@
+node_modules/
+.npmignore
+.env
+.vscode/
+.dist/
+
+# builds
+style.js
+/style.d.ts
+css.js
+css.d.ts
+color.js
+color.d.ts
+font.js
+font.d.ts
+theme.js
+theme.d.ts
+state.js
+state.d.ts

@@ -1,0 +1,48 @@
+{
+  "name": "@butility/style",
+  "version": "1.0.0",
+  "main": "style.js",
+  "type": "module",
+  "scripts": {
+    "build:types": "tsc --declaration --allowJs --emitDeclarationOnly style.js color.js css.js font.js theme.js state.js",
+    "build:main": "esbuild src/index.ts --bundle --outfile=style.js --format=esm",
+    "build:color": "esbuild src/modules/color.ts --bundle --outfile=color.js --format=esm",
+    "build:css": "esbuild src/modules/css.ts --bundle --outfile=css.js --format=esm",
+    "build:font": "esbuild src/modules/font.ts --bundle --outfile=font.js --format=esm",
+    "build:theme": "esbuild src/modules/theme.ts --bundle --outfile=theme.js --format=esm",
+    "build:state": "esbuild src/modules/state.ts --bundle --outfile=state.js --format=esm",
+    "build": "npm run build:main & npm run build:color & npm run build:css & npm run build:font & npm run build:theme & npm run build:state",
+    "format": "prettier --write src/**/*.ts",
+    "type-check": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/butility/style.git"
+  },
+  "keywords": [
+    "butility",
+    "style"
+  ],
+  "author": "Ermiyas Arage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/butility/style/issues"
+  },
+  "homepage": "https://github.com/butility/style#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.5.5",
+    "esbuild": "^0.23.1",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "prettier": "^3.3.3",
+    "ts-migrate": "^0.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@butility/dom": "^1.0.0",
+    "@butility/network": "^1.0.0"
+  }
+}
