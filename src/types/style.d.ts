@@ -39,6 +39,9 @@ export interface CustomEvent {
 
 // css
 export interface StyleResult {
-    cssText: string;
-    styleObject: { [selector: string]: { [property: string]: string } };
+    cssText: string; // The original CSS text
+    styleObject: { [selector: string]: { [property: string]: string } }; // Original parsed object with hyphenated properties
+    inlineCss: { [selector: string]: string }; // Inline CSS string format
+    camelCaseObject: { [selector: string]: { [property: string]: string } }; // Parsed object with camelCase properties
+    hyphenatedObject: { [selector: string]: { [property: string]: string } }; // Parsed object with hyphenated properties
 }
