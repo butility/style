@@ -27,22 +27,22 @@ npm install @butility/style
 ```html
 <!-- To use all the functions and methods -->
 <script src="https://unpkg.com/@butility/style@latest/style.js" type="module"></script>
-<script src="https://cdn.jsdelivr.net/npm/@butility/style@latest/style.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@butility/style@latest/style.js" type="module"></script>
 <!-- To use Color utils -->
 <script src="https://unpkg.com/@butility/style@latest/color.js" type="module"></script>
-<script src="https://cdn.jsdelivr.net/npm/@butility/style@latest/color.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@butility/style@latest/color.js" type="module"></script>
 <!-- To use CSS utils -->
 <script src="https://unpkg.com/@butility/style@latest/css.js" type="module"></script>
-<script src="https://cdn.jsdelivr.net/npm/@butility/style@latest/css.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@butility/style@latest/css.js" type="module"></script>
 <!-- To use Font Utils -->
 <script src="https://unpkg.com/@butility/style@latest/font.js" type="module"></script>
-<script src="https://cdn.jsdelivr.net/npm/@butility/style@latest/font.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@butility/style@latest/font.js" type="module"></script>
 <!-- To use state utils -->
 <script src="https://unpkg.com/@butility/style@latest/state.js" type="module"></script>
-<script src="https://cdn.jsdelivr.net/npm/@butility/style@latest/state.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@butility/style@latest/state.js" type="module"></script>
 <!-- To use theme utils -->
 <script src="https://unpkg.com/@butility/style@latest/theme.js" type="module"></script>
-<script src="https://cdn.jsdelivr.net/npm/@butility/style@latest/theme.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@butility/style@latest/theme.js" type="module"></script>
 ```
 
 ## Usage
