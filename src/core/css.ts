@@ -30,7 +30,10 @@ export function removeStylesByProps(
     }
 }
 
-export function resetStyles(element: HTMLElement, styles: CSSStyleDeclaration): void {
+export function resetStyles(
+    element: HTMLElement,
+    styles: CSSStyleDeclaration,
+): void {
     for (const property in styles) {
         if (styles.hasOwnProperty(property)) {
             element.style[property] = '';
