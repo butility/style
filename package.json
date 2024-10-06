@@ -1,6 +1,6 @@
 {
   "name": "@butility/style",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "style.js",
   "type": "module",
   "scripts": {
